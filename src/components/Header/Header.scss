@@ -7,6 +7,12 @@ header {
         justify-content: space-between;
         gap: 2rem;
         flex-wrap: wrap;
+
+        &-subheading {
+            font-size: var(--font-xs);
+            margin-top: 1rem;
+            align-items: center;
+        }
     
         &-logo {
             display: flex;
